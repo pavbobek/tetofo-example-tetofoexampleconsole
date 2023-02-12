@@ -1,0 +1,457 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\sandbox\\tetofo\\tetofoconsoleexample\\tetofoconsoleexample.csproj": {}
+  },
+  "projects": {
+    "C:\\sandbox\\tetofo\\tetofoconsoleexample\\tetofoconsoleexample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sandbox\\tetofo\\tetofoconsoleexample\\tetofoconsoleexample.csproj",
+        "projectName": "tetofoconsoleexample",
+        "projectPath": "C:\\sandbox\\tetofo\\tetofoconsoleexample\\tetofoconsoleexample.csproj",
+        "packagesPath": "C:\\Users\\pavbo\\.nuget\\packages\\",
+        "outputPath": "C:\\sandbox\\tetofo\\tetofoconsoleexample\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavbo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\sandbox\\tetofo\\tetofoconsolereaderstem\\tetofoconsolereaderstem.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofoconsolereaderstem\\tetofoconsolereaderstem.csproj"
+              },
+              "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj"
+              },
+              "C:\\sandbox\\tetofo\\tetofoeventbus\\tetofoeventbus.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofoeventbus\\tetofoeventbus.csproj"
+              },
+              "C:\\sandbox\\tetofo\\tetofoeventpayloadloggerstem\\tetofoeventpayloadloggerstem.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofoeventpayloadloggerstem\\tetofoeventpayloadloggerstem.csproj"
+              },
+              "C:\\sandbox\\tetofo\\tetofostem\\tetofostem.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofostem\\tetofostem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\sandbox\\tetofo\\tetofoconsolereaderstem\\tetofoconsolereaderstem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sandbox\\tetofo\\tetofoconsolereaderstem\\tetofoconsolereaderstem.csproj",
+        "projectName": "tetofoconsolereaderstem",
+        "projectPath": "C:\\sandbox\\tetofo\\tetofoconsolereaderstem\\tetofoconsolereaderstem.csproj",
+        "packagesPath": "C:\\Users\\pavbo\\.nuget\\packages\\",
+        "outputPath": "C:\\sandbox\\tetofo\\tetofoconsolereaderstem\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavbo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj"
+              },
+              "C:\\sandbox\\tetofo\\tetofoeventbus\\tetofoeventbus.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofoeventbus\\tetofoeventbus.csproj"
+              },
+              "C:\\sandbox\\tetofo\\tetofomodel\\tetofomodel.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofomodel\\tetofomodel.csproj"
+              },
+              "C:\\sandbox\\tetofo\\tetofostem\\tetofostem.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofostem\\tetofostem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj",
+        "projectName": "tetofodesignpattern",
+        "projectPath": "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj",
+        "packagesPath": "C:\\Users\\pavbo\\.nuget\\packages\\",
+        "outputPath": "C:\\sandbox\\tetofo\\tetofodesignpattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavbo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\sandbox\\tetofo\\tetofoeventbus\\tetofoeventbus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sandbox\\tetofo\\tetofoeventbus\\tetofoeventbus.csproj",
+        "projectName": "tetofoeventbus",
+        "projectPath": "C:\\sandbox\\tetofo\\tetofoeventbus\\tetofoeventbus.csproj",
+        "packagesPath": "C:\\Users\\pavbo\\.nuget\\packages\\",
+        "outputPath": "C:\\sandbox\\tetofo\\tetofoeventbus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavbo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj"
+              },
+              "C:\\sandbox\\tetofo\\tetofomodel\\tetofomodel.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofomodel\\tetofomodel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\sandbox\\tetofo\\tetofoeventpayloadloggerstem\\tetofoeventpayloadloggerstem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sandbox\\tetofo\\tetofoeventpayloadloggerstem\\tetofoeventpayloadloggerstem.csproj",
+        "projectName": "tetofoeventpayloadloggerstem",
+        "projectPath": "C:\\sandbox\\tetofo\\tetofoeventpayloadloggerstem\\tetofoeventpayloadloggerstem.csproj",
+        "packagesPath": "C:\\Users\\pavbo\\.nuget\\packages\\",
+        "outputPath": "C:\\sandbox\\tetofo\\tetofoeventpayloadloggerstem\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavbo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\sandbox\\tetofo\\tetofoeventbus\\tetofoeventbus.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofoeventbus\\tetofoeventbus.csproj"
+              },
+              "C:\\sandbox\\tetofo\\tetofostem\\tetofostem.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofostem\\tetofostem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\sandbox\\tetofo\\tetofomodel\\tetofomodel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sandbox\\tetofo\\tetofomodel\\tetofomodel.csproj",
+        "projectName": "tetofomodel",
+        "projectPath": "C:\\sandbox\\tetofo\\tetofomodel\\tetofomodel.csproj",
+        "packagesPath": "C:\\Users\\pavbo\\.nuget\\packages\\",
+        "outputPath": "C:\\sandbox\\tetofo\\tetofomodel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavbo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\sandbox\\tetofo\\tetofostem\\tetofostem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sandbox\\tetofo\\tetofostem\\tetofostem.csproj",
+        "projectName": "tetofostem",
+        "projectPath": "C:\\sandbox\\tetofo\\tetofostem\\tetofostem.csproj",
+        "packagesPath": "C:\\Users\\pavbo\\.nuget\\packages\\",
+        "outputPath": "C:\\sandbox\\tetofo\\tetofostem\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavbo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofodesignpattern\\tetofodesignpattern.csproj"
+              },
+              "C:\\sandbox\\tetofo\\tetofoeventbus\\tetofoeventbus.csproj": {
+                "projectPath": "C:\\sandbox\\tetofo\\tetofoeventbus\\tetofoeventbus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

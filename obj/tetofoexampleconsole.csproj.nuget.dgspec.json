@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\sandbox\\tetofo\\tetofoexampleconsole\\tetofoexampleconsole.csproj": {}
+  },
+  "projects": {
+    "C:\\sandbox\\tetofo\\tetofoexampleconsole\\tetofoexampleconsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sandbox\\tetofo\\tetofoexampleconsole\\tetofoexampleconsole.csproj",
+        "projectName": "tetofoexampleconsole",
+        "projectPath": "C:\\sandbox\\tetofo\\tetofoexampleconsole\\tetofoexampleconsole.csproj",
+        "packagesPath": "C:\\Users\\pavbo\\.nuget\\packages\\",
+        "outputPath": "C:\\sandbox\\tetofo\\tetofoexampleconsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavbo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "tetofodesignpattern": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "tetofoeventbus": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "tetofostem": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "tetofostemconsolereader": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "tetofostemeventpayloadlogger": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
